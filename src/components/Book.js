@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Book = ({ book }) => {
   const { isbn13, image, title, subtitle, price } = book
   return (
